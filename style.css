@@ -1,18 +1,39 @@
 body {
     margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
 }
 header {
-    background-image:url("https://blogsmedia.lse.ac.uk/blogs.dir/9/files/2019/07/code.jpg");
+    background-image:url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
     color: #ffff;
-    text-align: center;
+    
     padding: 60px 0px ;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 .container {
     max-width: 600px;
-    
+    text-align: center;
+    margin: auto;
 }
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color:rgb(52, 48, 48);
+    padding: 1em 2em;
+    border: 1px solid rgb(94, 89, 89);
+}
+.btn:hover {
+    background: rgb(225, 221, 221);
+    color: rgb(52, 48, 48);
+  }
+  img {
+      width: 100%;
+  }
+  
