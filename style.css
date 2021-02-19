@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+header {
+    background-image:url("https://blogsmedia.lse.ac.uk/blogs.dir/9/files/2019/07/code.jpg");
+    color: #ffff;
+    text-align: center;
+    padding: 60px 0px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
