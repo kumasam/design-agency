@@ -1,39 +1,128 @@
 body {
-    margin: 0px;
+    margin: 0;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5;
 }
+
 header {
-    background-image:url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
     color: #ffff;
-    
-    padding: 60px 0px ;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
+    padding: 60px 0;
+
+
 }
+
 .container {
     max-width: 600px;
     text-align: center;
     margin: auto;
+
 }
-.btn{
+
+.btn {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-color:rgb(52, 48, 48);
+    background-color: rgb(52, 48, 48);
     padding: 1em 2em;
     border: 1px solid rgb(94, 89, 89);
 }
+
 .btn:hover {
     background: rgb(225, 221, 221);
     color: rgb(52, 48, 48);
-  }
-  img {
-      width: 100%;
-  }
-  
+}
+
+img {
+    max-width: 100%;
+
+}
+
+.content_1 {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.content_2 {
+    background-color: rgb(49, 144, 212);
+}
+
+main {
+
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto;
+    background-color: rgb(51, 51, 51);
+    padding: 1em 5em 1em;
+
+}
+
+.grid-item {
+    grid-row: 3;
+    background-color: rgb(247, 250, 247);
+
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.grid-container-2 {
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.content-wrap,
+.grid-footer {
+    grid-row: 3;
+}
+
+#contact {
+    background-color: rgb(49, 144, 212);
+}
+
+#about {
+    background-color: rgb(51, 51, 51);
+
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .grid-container,
+    .grid-container-2,
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
